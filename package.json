@@ -5,12 +5,13 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "build": "pkg . --targets win --output listener.exe"
+    "build": "pkg . --targets win"
   },
   "pkg": {
     "assets": [
       "uploads/**/*"
-    ]
+    ],
+    "outputPath": "dist"
   },
   "keywords": [],
   "author": "",
